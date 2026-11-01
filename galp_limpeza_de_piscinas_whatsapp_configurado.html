@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b2e59">
+<title>GALP Limpeza de Piscinas</title>
+<style>
+:root{--navy:#0b2e59;--blue:#087fc1;--green:#00a651;--light:#eef7fb;--ink:#17324d;--muted:#607487}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#f5f9fc;line-height:1.5}
+header{background:linear-gradient(135deg,var(--navy),#075d91);color:white;padding:22px 18px 48px}
+.top{max-width:1050px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{font-weight:900;letter-spacing:1px;font-size:22px}.brand small{display:block;font-size:11px;letter-spacing:2px;color:#bcebd4}
+.badge{font-size:12px;border:1px solid #ffffff66;border-radius:30px;padding:7px 12px}
+.hero{max-width:1050px;margin:38px auto 0;display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+h1{font-size:clamp(30px,5vw,48px);line-height:1.08;margin:0 0 14px}.hero p{font-size:17px;color:#e0f0f8;max-width:590px}
+.hero-card{background:#ffffff16;border:1px solid #ffffff35;border-radius:22px;padding:24px}
+.pool-art{height:180px;border-radius:16px;background:linear-gradient(160deg,#9ce6ef 0 18%,#27a8d1 19% 70%,#0875aa 71%);position:relative;overflow:hidden}
+.pool-art:before,.pool-art:after{content:"";position:absolute;border:2px solid #ffffff80;border-radius:50%;width:220px;height:55px;left:-20px;top:55px;transform:rotate(-10deg)}
+.pool-art:after{left:110px;top:105px;width:180px;height:45px}
+.cta{display:inline-block;background:var(--green);color:#fff;text-decoration:none;font-weight:800;padding:13px 20px;border-radius:10px;margin-top:8px}
+main{max-width:1050px;margin:-22px auto 50px;padding:0 18px}
+section{background:white;border-radius:18px;padding:25px;margin-bottom:18px;box-shadow:0 8px 28px #153c5810}
+h2{color:var(--navy);margin:0 0 15px;font-size:23px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.service{background:var(--light);padding:17px;border-radius:13px}.service strong{display:block;color:var(--navy);margin-bottom:5px}.icon{font-size:24px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{border-left:4px solid var(--green);padding:5px 12px}.step b{display:block;color:var(--navy)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+label{font-size:13px;font-weight:700;color:#34536d;display:block;margin-bottom:5px}
+input,select,textarea{width:100%;border:1px solid #d2e0e9;border-radius:9px;padding:12px;font:inherit;background:#fff;color:var(--ink)}
+textarea{min-height:85px;resize:vertical}.full{grid-column:1/-1}
+button{border:0;cursor:pointer;font:inherit}
+.submit{background:var(--green);color:#fff;font-weight:800;padding:14px 18px;border-radius:10px;width:100%}
+.note{font-size:12px;color:var(--muted);margin-top:10px}
+.info{display:flex;gap:12px;flex-wrap:wrap}.pill{background:#eef7fb;border-radius:30px;padding:9px 13px;font-size:14px}
+.config{background:#f7fafc;border:1px dashed #9bb6c8;border-radius:12px;padding:14px;margin-top:15px}
+.config summary{cursor:pointer;font-weight:700;color:var(--navy)}.config-row{display:flex;gap:8px;margin-top:10px}.config-row input{flex:1}
+.smallbtn{background:var(--navy);color:#fff;border-radius:8px;padding:10px 13px}
+footer{text-align:center;color:#718496;font-size:12px;padding:15px}
+@media(max-width:720px){.hero{grid-template-columns:1fr;margin-top:25px}.hero-card{display:none}.grid,.steps{grid-template-columns:1fr}form{grid-template-columns:1fr}.full{grid-column:auto}header{padding-bottom:42px}section{padding:20px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="top"><div class="brand">GALP <small>LIMPEZA DE PISCINAS</small></div><div class="badge">Atendimento avulso · Por visita</div></div>
+  <div class="hero">
+    <div><h1>Sua piscina limpa e pronta para aproveitar.</h1><p>Solicite uma limpeza avulsa. Conte um pouco sobre sua piscina e receba seu orçamento diretamente pelo WhatsApp.</p><a class="cta" href="#orcamento">Solicitar orçamento</a></div>
+    <div class="hero-card"><div class="pool-art" aria-label="Ilustração de piscina azul"></div><p style="margin:14px 0 0;color:white;font-weight:700">Cuidado, capricho e atendimento combinado com você.</p></div>
+  </div>
+</header>
+<main>
+  <section><h2>Serviços</h2><div class="grid">
+    <div class="service"><span class="icon">🧹</span><strong>Limpeza da piscina</strong><span>Remoção de folhas e sujeiras da água.</span></div>
+    <div class="service"><span class="icon">〰️</span><strong>Aspiração e escovação</strong><span>Limpeza do fundo e das paredes, conforme a necessidade.</span></div>
+    <div class="service"><span class="icon">💧</span><strong>Cuidados com a água</strong><span>Avaliação da situação da água e orientação sobre tratamento.</span></div>
+  </div><p class="note">Os serviços e produtos necessários são avaliados conforme as condições de cada piscina e combinados antes do atendimento.</p></section>
+  <section><h2>Como funciona</h2><div class="steps">
+    <div class="step"><b>1. Conte sobre sua piscina</b>Preencha as informações abaixo.</div>
+    <div class="step"><b>2. Converse pelo WhatsApp</b>Receberei os detalhes para avaliar o serviço.</div>
+    <div class="step"><b>3. Combine o valor</b>O orçamento e a visita são acertados diretamente com você.</div>
+  </div></section>
+  <section id="orcamento"><h2>Solicitar orçamento</h2><p style="margin-top:-8px;color:var(--muted)">Preencha os campos para enviar os detalhes da piscina pelo WhatsApp.</p>
+    <form id="quoteForm">
+      <div><label for="nome">Seu nome *</label><input id="nome" required placeholder="Nome completo"></div>
+      <div><label for="bairro">Bairro *</label><input id="bairro" required placeholder="Seu bairro"></div>
+      <div><label for="tipo">Tipo de piscina *</label><select id="tipo" required><option value="">Selecione</option><option>Fibra</option><option>Alvenaria</option><option>Vinil</option><option>Outro / Não sei</option></select></div>
+      <div><label for="formato">Formato</label><select id="formato"><option>Retangular</option><option>Redonda</option><option>Oval</option><option>Irregular</option><option>Outro / Não sei</option></select></div>
+      <div><label for="comprimento">Comprimento aproximado (metros)</label><input id="comprimento" inputmode="decimal" placeholder="Ex.: 6"></div>
+      <div><label for="largura">Largura aproximada (metros)</label><input id="largura" inputmode="decimal" placeholder="Ex.: 3"></div>
+      <div><label for="profundidade">Profundidade aproximada</label><input id="profundidade" placeholder="Ex.: 1,40 m"></div>
+      <div><label for="agua">Como está a água? *</label><select id="agua" required><option value="">Selecione</option><option>Limpa, precisa de manutenção</option><option>Levemente suja</option><option>Verde ou turva</option><option>Com folhas e resíduos</option><option>Não sei avaliar</option></select></div>
+      <div class="full"><label for="servico">O que precisa ser feito?</label><select id="servico"><option>Limpeza geral</option><option>Aspiração</option><option>Escovação</option><option>Retirada de folhas e resíduos</option><option>Preciso de avaliação</option></select></div>
+      <div class="full"><label for="detalhes">Informações adicionais (opcional)</label><textarea id="detalhes" placeholder="Conte mais detalhes sobre a piscina ou o serviço."></textarea></div>
+      <div class="full"><button class="submit" type="submit">Enviar solicitação pelo WhatsApp</button><div class="note">O envio abrirá uma conversa no WhatsApp. Você poderá revisar a mensagem antes de enviar.</div></div>
+    </form>
+    <details class="config" hidden><summary>Configurar WhatsApp de atendimento</summary><p class="note">Informe o número com código do país e DDD, somente números. Exemplo: 55 + DDD + telefone.</p><div class="config-row"><input id="waNumber" inputmode="numeric" placeholder="55DDDNUMERO" aria-label="Número do WhatsApp"><button class="smallbtn" id="saveNumber" type="button">Salvar</button></div><div class="note" id="configStatus">O número fica salvo somente neste navegador.</div></details>
+  </section>
+  <section><h2>Atendimento</h2><div class="info"><span class="pill">📍 Santo Antônio da Platina – PR</span><span class="pill">📅 Segunda a sexta-feira</span><span class="pill">🧾 Limpeza avulsa, por visita</span><span class="pill">💬 Orçamento pelo WhatsApp</span></div></section>
+</main>
+<footer>GALP LIMPEZA DE PISCINAS · Atendimento mediante orçamento.</footer>
+<script>
+const numberInput=document.getElementById('waNumber'),statusText=document.getElementById('configStatus');
+function getNumber(){return '5543984592178'}
+if(getNumber()){numberInput.value=getNumber();statusText.textContent='Número de atendimento configurado neste navegador.'}
+document.getElementById('saveNumber').addEventListener('click',()=>{
+ const n=numberInput.value.replace(/\D/g,'');
+ if(n.length<12||n.length>13){statusText.textContent='Confira o número: use 55 + DDD + telefone.';return}
+ localStorage.setItem('galp_whatsapp',n);statusText.textContent='Número salvo. O botão de orçamento já pode ser utilizado.';
+});
+document.getElementById('quoteForm').addEventListener('submit',e=>{
+ e.preventDefault();const n=getNumber();
+ if(!n){document.querySelector('.config').open=true;statusText.textContent='Configure primeiro o WhatsApp de atendimento.';numberInput.focus();return}
+ const val=id=>document.getElementById(id).value.trim()||'Não informado';
+ const msg=['Olá! Gostaria de solicitar um orçamento para limpeza avulsa de piscina.','','*DADOS DO CLIENTE*','Nome: '+val('nome'),'Bairro: '+val('bairro'),'','*DADOS DA PISCINA*','Tipo: '+val('tipo'),'Formato: '+val('formato'),'Comprimento: '+val('comprimento'),'Largura: '+val('largura'),'Profundidade: '+val('profundidade'),'Situação da água: '+val('agua'),'Serviço desejado: '+val('servico'),'Informações adicionais: '+val('detalhes'),'','Podemos conversar sobre o valor e a disponibilidade?'].join('\n');
+ window.open('https://wa.me/'+n+'?text='+encodeURIComponent(msg),'_blank');
+});
+</script>
+</body>
+</html>
